@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>故宮問卷調查</title>
+</head>
+<body>
+    <!-- <form>標籤內的所有內容，只有設定name屬性的資料才會被送到伺服器後端 -->
+    <!-- <form action>
+        <label for="名字">姓名:</label>
+        <input id="名字" type="text" name="姓名"/>
+        <button type="submit">提交表單</button>
+    </form> -->
+
+    <!-- Don't use this, as this is GET method -->
+    <!-- <form action="">
+        <label for="email">帳號:</label>
+        <input id="email" type="email" name="email"/>
+        <label for="password">密碼:</label>
+        <input id="password" type="password" name="password"/>
+        <button type="submit">登入系統</button>
+    </form> -->
+
+    <!-- Use POST method -->
+    <form action="" method="POST">
+        <label for="email">帳號:</label>
+        <input id="email" type="email" name="email" placeholder="請輸入信箱"/>
+        <label for="password">密碼:</label>
+        <input id="password" type="password" name="password"/>
+        <input type="file" />
+        <button type="submit">登入系統</button>
+    </form>
+</body>
+</html>
